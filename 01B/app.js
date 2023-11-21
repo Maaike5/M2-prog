@@ -16,10 +16,10 @@ class App
 let app = new App();
 app.runApplication();
 console.log(app.greeting);
-console.log("appNaam: " +app.appNaam);
-console.log("versienummer " + app.versienummer);
-console.log("versiedatum " + app.versiedatum);
-console.log("Autheur " + app.Autheur);
-console.log("copyright " + app.copyright);
-console.log("distributeur " + app.distributeur);
-console.log("darkmode " + app.darkmode);
+console.log("appNaam: " +app.Demoapp);
+console.log("versienummer " + app."0.1");
+console.log("versiedatum " + app.);
+console.log("Autheur " + app.Maaike);
+console.log("copyright " + app.Maaike Bv);
+console.log("distributeur " + app.Maaike Soft);
+console.log("darkmode " + app.False);
