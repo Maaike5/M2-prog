@@ -5,6 +5,8 @@ function argumentsAreHandy(supershoutout)
 
 }
 argumentsAreHandy("spongebob");
+argumentsAreHandy("spongebob");
+argumentsAreHandy("spongebob");
 
 
 function superMooieGlobalFunction()
