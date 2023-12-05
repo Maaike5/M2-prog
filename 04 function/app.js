@@ -1,3 +1,12 @@
+function argumentsAreHandy(supershoutout)
+{
+    console.log("do you want to give a shoutout");
+    console.log(supershoutout);
+
+}
+argumentsAreHandy("spongebob");
+
+
 function superMooieGlobalFunction()
 {
     console.log("Ik ben global");
