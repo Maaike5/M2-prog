@@ -3,6 +3,8 @@ class App
     runApplication()
     {
      console.log("Hello world.");
+     let title = document.getElementById("newstitle");
+     console.log(title);
      /// hier komt de code ///
      /// dit is de code comentaar///
      /// dit is ook comentaar///
