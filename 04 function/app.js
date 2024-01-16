@@ -20,7 +20,12 @@ console.log(y2);
 let y3 = ax2bcWiskunde(7,1,2,13);
 console.log(y3);
 
+function geforceerd(u,h,l){
 
+    let logY = Math.log(l) + h + Math.pow(u,2);
+    console.log(logY)
+}
+geforceerd(9,8,15)
 
 function argumentsAreHandy(supershoutout)
 {
@@ -28,15 +33,15 @@ function argumentsAreHandy(supershoutout)
     console.log(supershoutout);
 
 }
-argumentsAreHandy("spongebob");
-argumentsAreHandy("spongebob");
-argumentsAreHandy("spongebob");
+argumentsAreHandy("Maxverstappen");
+argumentsAreHandy("Maxverstappen");
+argumentsAreHandy("Maxverstappen");
 
 
 function superMooieGlobalFunction()
 {
     console.log("Ik ben global");
-    console.log("dus je mag mij overal aanroepen ")    
+    console.log("dus je mag mij overal aanroepen ");
 }
 superMooieGlobalFunction();
 superMooieGlobalFunction();
@@ -51,8 +56,47 @@ class App
       console.log("hello world");
       superMooieGlobalFunction();
     }
+
+
+newClassFunction()
+{
+    console.log("hello world in de nieuweClassFunction");
+
 }
 
+anotherFunctionWithArguments(aArgument)
+{
+    console.log("kom maar met je argument");
+    console.log("hier");
+    console.log(aArgument);
+}
+Mario()
+{
+    console.log("MARIO!!");
+}
+schrik()
+{
+    let bang = "BWAHAHA!!";
+    return bang;
+}
+Math(x,a)
+{
+    let y = x + a
+    return y;
+}
+besteF1Coureur()
+{
+    console.log("De beste f1 coureur momenteel is Max Verstappen");
+}
+}
 
 let app = new App();
 app.runApplication();
+app.newClassFunction();
+app.anotherFunctionWithArguments("dit is een argumet..");
+app.Mario();
+let schrikken = app.schrik();
+console.log(schrikken);
+let antwoord = app.Math(89,314);
+console.log(antwoord)
+app.besteF1Coureur();
