@@ -21,7 +21,7 @@ class App
            image.width = 500; 
            image.height = 600; 
            const paranode = document.createTextNode("This is new")
-           const headernode = document.createTextNode("or not?")
+           const headernode = document.createTextNode("Yahoe")
            para.appendChild(paranode)
            header.appendChild(headernode)
            document.body.appendChild(header)
